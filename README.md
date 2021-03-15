@@ -5,7 +5,8 @@ ESta es una aplicacion construida en flutter la cual consume los siguientes serv
 
 1. Contiene un login implementado con Firebase ( Facebook, Google,  Email).
 2. Consume los servicios de spotify ( playlis, albunes, etc...)
-3. Como patrones de desarrollo se utilizarojn BLOC y PROVIDER.
+3. Utiliza patrones de desarrollo se utilizarojn BLOC y PROVIDER.
+4. Tiene prefrencias compartidas, para un logeo unico.
 
 Finalmente esta app es realizada solo para fines demostrativos.
 
