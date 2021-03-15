@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1069054383988-a4ogtjv355fd6kkrmsodtt458aop73bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wigilabs.spotify",
+            "certificate_hash": "234124e01e5a9ddef26db4cdb7e049007bfce381"
+          }
+        },
+        {
           "client_id": "1069054383988-bl27uttonqbhshoriuvr70fmk2cad88b.apps.googleusercontent.com",
           "client_type": 3
         }

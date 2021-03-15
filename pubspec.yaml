@@ -26,6 +26,11 @@ dependencies:
   firebase_auth: ^0.15.4
   flutter_facebook_login: ^3.0.0
   google_sign_in: ^4.1.1
+  shared_preferences:
+  form_field_validator: 
+  dio: ^3.0.9
+  font_awesome_flutter:
+  fluttertoast:
 dev_dependencies:
   flutter_test:
     sdk: flutter
