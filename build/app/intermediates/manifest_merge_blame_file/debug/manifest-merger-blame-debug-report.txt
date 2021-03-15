@@ -135,117 +135,125 @@
 79        </service>
 80
 81        <activity
-81-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
-82            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-82-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
-83            android:excludeFromRecents="true"
-83-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
-84            android:exported="false"
-84-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
-85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-85-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
-86        <!--
-87            Service handling Google Sign-In user revocation. For apps that do not integrate with
-88            Google Sign-In, this service will never be started.
-89        -->
-90        <service
-90-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
-91            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-91-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
-92            android:exported="true"
-92-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
-93            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-93-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
-94
-95        <activity
-95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
-96            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-96-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
-97            android:excludeFromRecents="true"
-97-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
-98            android:exported="true"
-98-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
-99            android:launchMode="singleTask"
-99-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
-100            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-100-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
-101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-101-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
-102        <activity android:name="com.facebook.CustomTabMainActivity" />
-102-->[com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e2430d936f9c9addb6f59322bad4ecf8\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
-102-->[com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e2430d936f9c9addb6f59322bad4ecf8\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
-103        <activity
-103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-105            android:exported="false"
-105-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-106-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-107
-108        <provider
-108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-109            android:name="com.google.firebase.provider.FirebaseInitProvider"
-109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-110            android:authorities="com.wigilabs.spotify.firebaseinitprovider"
-110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-111            android:exported="false"
-111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-112            android:initOrder="100" />
-112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-113
-114        <meta-data
-114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\661d6209ef240dda8ff192d95887e1c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-115            android:name="com.google.android.gms.version"
-115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\661d6209ef240dda8ff192d95887e1c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-116            android:value="@integer/google_play_services_version" />
-116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\661d6209ef240dda8ff192d95887e1c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-117        <!--
-118         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-119         with the application context. This config is merged in with the host app's manifest,
-120         but there can only be one provider with the same authority activated at any given
-121         point; so if the end user has two or more different apps that use Facebook SDK, only the
-122         first one will be able to use the provider. To work around this problem, we use the
-123         following placeholder in the authority to identify each host application as if it was
-124         a completely different provider.
-125        -->
-126        <provider
-126-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
-127            android:name="com.facebook.internal.FacebookInitProvider"
-127-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
-128            android:authorities="com.wigilabs.spotify.FacebookInitProvider"
-128-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
-129            android:exported="false" />
-129-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
-130
-131        <receiver
-131-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
-132            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-132-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
-133            android:exported="false" >
-133-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
-134            <intent-filter>
-134-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
-135                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-135-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
-135-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
-136            </intent-filter>
-137        </receiver>
-138        <receiver
-138-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
-139            android:name="com.facebook.CampaignTrackingReceiver"
-139-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
-140            android:exported="true"
-140-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
-141            android:permission="android.permission.INSTALL_PACKAGES" >
-141-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
-142            <intent-filter>
-142-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
-143                <action android:name="com.android.vending.INSTALL_REFERRER" />
-143-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
-143-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
-144            </intent-filter>
-145        </receiver>
-146    </application>
-147
-148</manifest>
+81-->[:url_launcher] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+82            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+82-->[:url_launcher] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+83            android:exported="false"
+83-->[:url_launcher] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+84            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+84-->[:url_launcher] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+85        <activity
+85-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+86            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+86-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+87            android:excludeFromRecents="true"
+87-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+88            android:exported="true"
+88-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+89            android:launchMode="singleTask"
+89-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+90            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+90-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\580c6395dcaef5e324ba5dc2a3e9488d\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+92        <activity android:name="com.facebook.CustomTabMainActivity" />
+92-->[com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e2430d936f9c9addb6f59322bad4ecf8\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+92-->[com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e2430d936f9c9addb6f59322bad4ecf8\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+93        <activity
+93-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+94            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+94-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+95            android:excludeFromRecents="true"
+95-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+98        <!--
+99            Service handling Google Sign-In user revocation. For apps that do not integrate with
+100            Google Sign-In, this service will never be started.
+101        -->
+102        <service
+102-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+103            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+103-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+104            android:exported="true"
+104-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+105            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+105-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e1f8f87a4cb24054bdf0478cadc2b1d4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+106
+107        <provider
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+108            android:name="com.google.firebase.provider.FirebaseInitProvider"
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+109            android:authorities="com.wigilabs.spotify.firebaseinitprovider"
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+110            android:exported="false"
+110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+111            android:initOrder="100" />
+111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\86e1624c59e69172386e0dbd6fab8548\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\661d6209ef240dda8ff192d95887e1c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\661d6209ef240dda8ff192d95887e1c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\661d6209ef240dda8ff192d95887e1c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+121        <!--
+122         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+123         with the application context. This config is merged in with the host app's manifest,
+124         but there can only be one provider with the same authority activated at any given
+125         point; so if the end user has two or more different apps that use Facebook SDK, only the
+126         first one will be able to use the provider. To work around this problem, we use the
+127         following placeholder in the authority to identify each host application as if it was
+128         a completely different provider.
+129        -->
+130        <provider
+130-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+131            android:name="com.facebook.internal.FacebookInitProvider"
+131-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+132            android:authorities="com.wigilabs.spotify.FacebookInitProvider"
+132-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+133            android:exported="false" />
+133-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+134
+135        <receiver
+135-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+136            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+136-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+137            android:exported="false" >
+137-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+138            <intent-filter>
+138-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+139                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+139-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+139-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+140            </intent-filter>
+141        </receiver>
+142        <receiver
+142-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+143            android:name="com.facebook.CampaignTrackingReceiver"
+143-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+144            android:exported="true"
+144-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+145            android:permission="android.permission.INSTALL_PACKAGES" >
+145-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+146            <intent-filter>
+146-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+147                <action android:name="com.android.vending.INSTALL_REFERRER" />
+147-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+147-->[com.facebook.android:facebook-core:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\d07e26d0b9d51b322175830fd9bd2465\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+148            </intent-filter>
+149        </receiver>
+150    </application>
+151
+152</manifest>

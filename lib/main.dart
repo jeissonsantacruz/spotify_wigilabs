@@ -1,6 +1,6 @@
-import 'package:firebaseauth/paginas/homeUsuario.dart';
-import 'package:firebaseauth/paginas/loginUsuario.dart';
-import 'package:firebaseauth/paginas/resgistroUsuario.dart';
+import 'package:firebaseauth/paginas/login/pantallaEspera.dart';
+import 'package:firebaseauth/paginas/login/loginUsuario.dart';
+import 'package:firebaseauth/paginas/login/resgistroUsuario.dart';
 import 'package:flutter/material.dart';
 
 import 'proveedores/preferenciasUsuario.dart';
@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
       routes: {
         'login'   : (context) => LoginPagina(),
         'registro': (context) => RegistroCorreo(),
-        'Home'    : (context) => HomePagina(),
+        'espera'    : (context) => EsperaPantalla(),
       },
     );
   }
@@ -62,7 +62,7 @@ class _MyAppState extends State<MyApp> {
     // Rutas Switch
     var route;
     if (userPreferences.login != false) {
-      route = 'Home';
+      route = 'espera';
       return route;
     } else {
       route ='login';
