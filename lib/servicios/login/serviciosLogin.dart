@@ -1,17 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-// import 'package:http/http.dart' as http;
-
-// import 'dart:convert';
-
-
-
+import 'package:dio/dio.dart';
+import 'dart:convert';
 
 /* Classe que contiene todos los servicios de login*/
 class ServiciosLogin {
-  
-
   // Funcion que llama el API de firebase para iniciar o autenticarse con Google
   Future<void> googleSignUp() async {
     try {
@@ -38,7 +32,7 @@ class ServiciosLogin {
       print(e.message);
     }
   }
-  
+
   // Funcion que llama el API de firebase para iniciar o autenticarse con Facebook
   Future<void> signUpWithFacebook() async {
     try {
@@ -59,7 +53,7 @@ class ServiciosLogin {
       return null;
     }
   }
-  
+
   // Funcion que llama el API de firebase para iniciar o autenticarse con Email
   Future<bool> signUpWithMail(String correo, String password) async {
     try {
@@ -71,4 +65,41 @@ class ServiciosLogin {
       return false;
     }
   }
+}
+
+final String urlPrueba =
+    'https://apiselfservice.co/api/index.php/v1/soap/LoginUsuario.json';
+
+// {
+//     "error": 1,
+//     "response": "El Usuario ingresado no se encuentra registrado",
+//     "secs": "00:00:00.1560",
+//     "server": "Exception4",
+//     "request": "{\"nombreUsuario\":\"a@a.aa\",\"clave\":\"Garay1362\"}",
+//     "nodo": "10.3.0.12"
+// }
+class PruebaDatos {
+  Future<Map<dynamic, dynamic>> listarPendientes() async {
+    var data = {
+      {"nombreUsuario": "a@a.aa", "clave": "Garay1362"}
+    };
+
+    var dataBody = {"data": json.encode(data)};
+    var dio = Dio();
+    final encodedData = FormData.fromMap(dataBody);
+    // make POST request
+    Response response = await dio.post(
+      urlPrueba,
+      data: encodedData,
+      options: Options(
+        headers: {"X-MC-SO": "WigilabsTest"},
+      ),
+    );
+    final decodeData = jsonDecode(response.data);
+
+    print(decodeData);
+
+    return decodeData;
+  }
+
 }
