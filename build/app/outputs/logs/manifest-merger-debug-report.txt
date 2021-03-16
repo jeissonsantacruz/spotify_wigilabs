@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-52:12
-INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-52:12
-INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-52:12
-INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-52:12
-MERGED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-52:12
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-60:12
+MERGED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-60:12
 MERGED from [:google_sign_in] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\google_sign_in\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:audioplayers] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\audioplayers\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:fluttertoast] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -72,11 +72,11 @@ INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\sr
 		INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-52:12
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-60:12
 		INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-52:12
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:1-60:12
 		INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -89,7 +89,7 @@ MERGED from [:google_sign_in] C:\Users\santa\OneDrive\Escritorio\spotify_wigilab
 	android:name
 		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:11:5-51:19
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:11:5-59:19
 MERGED from [:firebase_auth] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
@@ -172,38 +172,46 @@ MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\
 		ADDED from [com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e2430d936f9c9addb6f59322bad4ecf8\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
 	android:name
 		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:32:19-63
+activity#com.linusu.flutter_web_auth.CallbackActivity
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:36:9-43:20
+	android:name
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:36:19-78
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:alarmfy
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:37:13-42:29
+	android:label
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:37:28-60
+action#android.intent.action.VIEW
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:39:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:40:17-78
+	android:name
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:40:27-75
+data
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:41:17-50
+	android:scheme
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:41:23-47
 activity#com.facebook.CustomTabActivity
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:36:9-45:20
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:44:9-53:20
 MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e2430d936f9c9addb6f59322bad4ecf8\jetified-facebook-common-5.5.1\AndroidManifest.xml:34:9-67
 MERGED from [com.facebook.android:facebook-common:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\e2430d936f9c9addb6f59322bad4ecf8\jetified-facebook-common-5.5.1\AndroidManifest.xml:34:9-67
 	android:exported
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:46:13-36
 	android:name
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:37:13-58
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:45:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:39:13-44:29
-action#android.intent.action.VIEW
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:40:17-69
-	android:name
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:40:25-66
-category#android.intent.category.DEFAULT
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:41:17-76
-	android:name
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:41:27-73
-category#android.intent.category.BROWSABLE
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:42:17-78
-	android:name
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:42:27-75
-data
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:43:17-75
-	android:scheme
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:43:23-72
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:47:13-52:29
 meta-data#flutterEmbedding
-ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:48:9-50:33
+ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:56:9-58:33
 	android:value
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:50:13-30
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:58:13-30
 	android:name
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:49:13-44
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:57:13-44
 uses-sdk
 INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml

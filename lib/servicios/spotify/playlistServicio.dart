@@ -9,7 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class PlaylistListApiProvider {
   Client client = Client();
-  var urlToPlaylist = 'https://api.spotify.com/v1/me/playlists';
+  var urlToPlaylist = 'https://api.spotify.com/v1/users/bpl5zuxzccygwq5c7x64ax9pi/playlists';
 
   Future<ListPlaylistModel> fetchPlaylistList() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();

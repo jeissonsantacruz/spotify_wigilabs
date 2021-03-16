@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:firebaseauth/blocs/autorizacionBloc.dart';
 import 'package:firebaseauth/modelos/autorizacion.dart';
+import 'package:firebaseauth/paginas/spotify/homeUsuario.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:flutter/material.dart';
@@ -27,8 +28,8 @@ class _EsperaPantallaState extends State<EsperaPantalla> {
       authorizationBloc.disposeToken();
       Timer(
           Duration(microseconds: 0),
-          () => Navigator.pushNamedAndRemoveUntil(
-              context, "/home", (route) => false));
+          () =>   Navigator.push(
+            context, MaterialPageRoute(builder: (context) => HomePagina())));
       return Center(child: CircularProgressIndicator());
     }
 
