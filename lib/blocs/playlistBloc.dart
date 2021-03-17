@@ -15,7 +15,7 @@ class PlaylistBloc {
   Observable<TracksPlaylistModel> get tracksList => tackslistLista.stream;
 
   fetchPlaylistList() async {
-     ListPlaylistModel code = await _repository.fetchPlaylistList();
+     ListPlaylistModel code =   await _repository.fetchPlaylistList();
     playlistLista.sink.add(code);
   }
   fetchTracksList(String url) async {

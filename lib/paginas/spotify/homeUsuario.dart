@@ -24,7 +24,6 @@ class _HomePaginaState extends State<HomePagina> {
     );
 
     BottomNavigationBar bottomNavigationBar = new BottomNavigationBar(
-      backgroundColor: Theme.of(context).primaryColor,
       selectedFontSize: 10,
       unselectedFontSize: 10,
       selectedItemColor: Colors.white,
@@ -45,7 +44,7 @@ class _HomePaginaState extends State<HomePagina> {
             )),
         BottomNavigationBarItem(
             // ignore: deprecated_member_use
-            title: Text("YLibreria"),
+            title: Text("Libreria"),
             icon: Icon(
               Icons.library_music,
             )),

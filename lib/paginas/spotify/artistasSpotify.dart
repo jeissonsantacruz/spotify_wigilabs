@@ -4,7 +4,6 @@ import 'package:firebaseauth/modelos/albunes.dart' as albun;
 import 'package:firebaseauth/modelos/artista.dart' as modelo;
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:url_launcher/url_launcher.dart';
 class ArtistasScreem extends StatefulWidget {
   @override
   _ArtistasScreemState createState() => _ArtistasScreemState();
