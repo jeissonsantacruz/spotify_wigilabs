@@ -12,6 +12,16 @@ Finalmente esta app es realizada solo para fines demostrativos.
 
 # Información Personal
 
+
+# Screenshots
+![title](images/album.jpeg)
+![title](images/albums.jpeg)
+![title](images/artist.jpeg)
+![title](images/imagen1.jpeg)
+![title](images/imagen4.jpeg)
+![title](images/login.jpeg)
+
+
 **Nombre**: Jeisson Santacruz.
 **Profesion **: Ingeniero de sistemas y ciencias de la computacion.
 ** Tecnologias** : Flutter, React Native, PHP, Node js, JavaScript, Mongo Db.
