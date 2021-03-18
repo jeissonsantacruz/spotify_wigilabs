@@ -4,7 +4,7 @@ import 'package:firebaseauth/widgets/toastWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:form_field_validator/form_field_validator.dart';
 
-import '../spotify/homeUsuario.dart';
+import '../spotify/homeUsuarioSpotify.dart';
 
 class RegistroCorreo extends StatefulWidget {
   @override

@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:firebaseauth/modelos/autorizacion.dart';
-import 'package:firebaseauth/modelos/listaPlaylist.dart';
+import 'package:firebaseauth/modelos/autorizacionModelo.dart';
+import 'package:firebaseauth/modelos/playslistModelo.dart';
 import 'package:http/http.dart' show Client;
 import 'dart:convert';
 
@@ -11,7 +11,7 @@ class PlaylistListApiProvider {
   Client client = Client();
   var urlToPlaylist = 'https://api.spotify.com/v1/users/bpl5zuxzccygwq5c7x64ax9pi/playlists';
 
-  Future<ListPlaylistModel> fetchPlaylistList() async {
+  Future<ListPlaylistModel> fetchPlaylist() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String accesstoken = prefs.getString('access_token');
     String tokentype = prefs.getString('token_type');

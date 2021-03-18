@@ -1,5 +1,5 @@
 import 'package:firebaseauth/blocs/categoriaBloc.dart';
-import 'package:firebaseauth/modelos/categorias.dart';
+import 'package:firebaseauth/modelos/categoriasModelo.dart';
 import 'package:flutter/material.dart';
 
 class AlbumTabBar extends StatefulWidget {
@@ -25,10 +25,10 @@ class AlbumTabBarState extends State<AlbumTabBar> {
                 leading: Image.network(snapshot.data.categories.items[index].icons[0].url),
                 title: Text("${snapshot.data.categories.items[index].name}"),
                 onTap: () {
-                  // Navigator.pushNamed(context, "/tracks",
-                  //     arguments: <String, Playlist>{
-                  //       'playlist': snapshot.data.items[index],
-                  //     });
+                  Navigator.pushNamed(context, "/playlistCategorias",
+                      arguments:  <String, Categoria>{ 
+                        'categorias': snapshot.data.categories.items[index],
+                      });
                 },
               );
             },

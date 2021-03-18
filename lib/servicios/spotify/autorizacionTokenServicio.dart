@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:firebaseauth/modelos/autorizacion.dart';
+import 'package:firebaseauth/modelos/autorizacionModelo.dart';
 import 'package:http/http.dart' show Client;
 import 'dart:convert';
 

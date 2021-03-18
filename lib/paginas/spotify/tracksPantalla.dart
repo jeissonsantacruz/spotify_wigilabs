@@ -1,33 +1,49 @@
 
-import 'package:firebaseauth/blocs/artistasBloc.dart';
-import 'package:firebaseauth/modelos/albunesModelo.dart' as albun;
-import 'package:firebaseauth/modelos/artistasModelo.dart' as modelo;
+import 'package:audioplayers/audioplayers.dart';
+import 'package:firebaseauth/blocs/playlistBloc.dart';
+import 'package:firebaseauth/modelos/playslistModelo.dart';
+import 'package:firebaseauth/modelos/trackModelo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-class ArtistasScreem extends StatefulWidget {
+import 'package:url_launcher/url_launcher.dart';
+class TracksScreen extends StatefulWidget {
   @override
-  _ArtistasScreemState createState() => _ArtistasScreemState();
+  _TracksScreenState createState() => _TracksScreenState();
 }
-class _ArtistasScreemState extends State<ArtistasScreem> {
-  modelo.Artist _artistas;
-  
+class _TracksScreenState extends State<TracksScreen> {
+  Playlist _playlist;
+  AudioPlayer audioPlayer = AudioPlayer();
   bool sound = false;
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    _artistas = null;
+    _playlist = null;
   }
 
+  play(String url) async {
+    int result = await audioPlayer.play(url);
+    if (result == 1) {
+      sound = true;
+    }
+  }
 
+  _launchURL(urlParameter) async {
+    String url = urlParameter.toString();
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'No se pudo ir a $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     final Map arguments = ModalRoute.of(context).settings.arguments as Map;
     if (arguments != null) {
-      _artistas = arguments['artista'] as modelo.Artist;
-      artistasBloc.fectAlbunes("https://api.spotify.com/v1/artists/${_artistas.id}/albums?include_groups=single%2Cappears_on&market=ES&limit=10&offset=5");
+      _playlist = arguments['playlist'] as Playlist;
+      playlistBloc.fetchTracksList(_playlist.tracks.href.toString());
     }
 
     SliverAppBar sliverAppBar = new SliverAppBar(
@@ -38,13 +54,13 @@ class _ArtistasScreemState extends State<ArtistasScreem> {
       flexibleSpace: FlexibleSpaceBar(
         collapseMode: CollapseMode.pin,
         centerTitle: true,
-        title: Text("${_artistas.name}"),
+        title: Text("${_playlist.name}"),
         background: Stack(
           alignment: Alignment.center,
           //fit: StackFit.expand, // Para expandir la imagen por
           children: [
             Image.network(
-              "${_artistas.images.length > 0 ? _artistas.images[0].url : "https://cdn.pixabay.com/photo/2012/04/23/15/46/question-38629_960_720.png"}",
+              "${_playlist.images.length > 0 ? _playlist.images[0].url : "https://cdn.pixabay.com/photo/2012/04/23/15/46/question-38629_960_720.png"}",
               height: 180,
               //fit: BoxFit.cover,
             ),
@@ -65,13 +81,10 @@ class _ArtistasScreemState extends State<ArtistasScreem> {
       ),
     );
 
-    _sliverList(AsyncSnapshot<albun.Albunes> snapshot) {
+    _sliverList(AsyncSnapshot<TracksPlaylistModel> snapshot) {
       SliverList sliverList = new SliverList(
-        
         delegate: SliverChildBuilderDelegate(
-          
           (context, index) {
-            
             return new Slidable(
               actionPane: SlidableDrawerActionPane(),
               actionExtentRatio: 0.25,
@@ -80,32 +93,40 @@ class _ArtistasScreemState extends State<ArtistasScreem> {
                 color: Colors.black54,
                 child: ListTile(
                   leading: Image.network(snapshot
-                              .data.items[index].images.length >
+                              .data.items[index].track.album.images.length >
                           0
-                      ? snapshot.data.items[index].images[0].url
+                      ? snapshot.data.items[index].track.album.images[0].url
                       : "https://cdn.pixabay.com/photo/2012/04/23/15/46/question-38629_960_720.png"),
-                  title: Text("${snapshot.data.items[index].name}"),
+                  title: Text("${snapshot.data.items[index].track.name}"),
                   subtitle: Text(
-                      "${snapshot.data.items[index].artists[0].name}"),
+                      "${snapshot.data.items[index].track.artists[0].name}"),
                   trailing: IconButton(
                     icon: Icon(Icons.more_vert),
                     onPressed: (){},
                   ),
-                  
+                  onTap: () {
+                    play(snapshot.data.items[index].track.previewUrl);
+                  },
                 ),
               ),
               secondaryActions: <Widget>[
-               
+                IconSlideAction(
+                  caption: 'Open Spotify',
+                  color: Colors.black45,
+                  icon: Icons.play_circle_outline,
+                  onTap: () => _launchURL(
+                      snapshot.data.items[index].track.externalUrls.spotify),
+                ),
               ],
             );
           },
-          childCount: snapshot.data.items.length,
+          childCount: snapshot.data.total,
         ),
       );
       return sliverList;
     }
 
-    _scaffold(AsyncSnapshot<albun.Albunes> snapshot) {
+    _scaffold(AsyncSnapshot<TracksPlaylistModel> snapshot) {
       Scaffold scaffold = new Scaffold(
         body: CustomScrollView(
           slivers: <Widget>[sliverAppBar, _sliverList(snapshot)],
@@ -115,9 +136,8 @@ class _ArtistasScreemState extends State<ArtistasScreem> {
     }
 
     return new StreamBuilder(
-      stream: artistasBloc.albunesListList,
-      builder: (context, AsyncSnapshot<albun.Albunes> snapshot) {
-        
+      stream: playlistBloc.tracksList,
+      builder: (context, AsyncSnapshot<TracksPlaylistModel> snapshot) {
         if (snapshot.hasData) {
           return _scaffold(snapshot);
         } else if (snapshot.hasError) {

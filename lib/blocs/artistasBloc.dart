@@ -1,7 +1,7 @@
 
 
-import 'package:firebaseauth/modelos/albunes.dart';
-import 'package:firebaseauth/modelos/artista.dart';
+import 'package:firebaseauth/modelos/albunesModelo.dart';
+import 'package:firebaseauth/modelos/artistasModelo.dart';
 import 'package:firebaseauth/servicios/spotify/repositoryServicio.dart';
 import 'package:rxdart/rxdart.dart';
 
@@ -9,18 +9,18 @@ class ArtistasBloc {
   final _repository = RepositoryArtistas();
 
   final PublishSubject playlistLista = PublishSubject<Artistas>();
-  final PublishSubject albunesList = PublishSubject<Albunes>();
+  final PublishSubject albunesLista = PublishSubject<Albunes>();
 
   Observable<Artistas> get playlistList => playlistLista.stream;
-  Observable<Albunes> get albunesListList => albunesList.stream;
+  Observable<Albunes> get albunesListList => albunesLista.stream;
 
-  fetchPlaylistList() async {
+  fetchPlaylist() async {
      Artistas code = await _repository.fetchArtistas();
     playlistLista.sink.add(code);
   }
-   fectAlbune(String url) async {
+   fectAlbunes(String url) async {
     Albunes tracks = await _repository.fetchAlbunes(url);
-    albunesList.sink.add(tracks);
+    albunesLista.sink.add(tracks);
   }
  
 
@@ -28,7 +28,7 @@ class ArtistasBloc {
     playlistLista.close();
   }
   disposeAlbunes() {
-    albunesList.close();
+    albunesLista.close();
   }
 
 }

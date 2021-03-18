@@ -2,8 +2,9 @@ import 'package:firebaseauth/paginas/login/pantallaEspera.dart';
 import 'package:firebaseauth/paginas/login/loginUsuario.dart';
 import 'package:firebaseauth/paginas/login/resgistroUsuario.dart';
 import 'package:firebaseauth/paginas/spotify/artistasSpotify.dart';
-import 'package:firebaseauth/paginas/spotify/homeUsuario.dart';
-import 'package:firebaseauth/paginas/spotify/tracks_screen.dart';
+import 'package:firebaseauth/paginas/spotify/homeUsuarioSpotify.dart';
+import 'package:firebaseauth/paginas/spotify/playlistSpotify.dart';
+import 'package:firebaseauth/paginas/spotify/tracksPantalla.dart';
 import 'package:flutter/material.dart';
 
 import 'proveedores/preferenciasUsuario.dart';
@@ -58,6 +59,8 @@ class _MyAppState extends State<MyApp> {
         'home' : (context) => HomePagina(),
         '/tracks': (BuildContext context) => new TracksScreen(),
          '/artistas': (BuildContext context) => new ArtistasScreem(),
+         '/playlistCategorias': (BuildContext context) => new PlaylistCategoria(),
+
 
         
       },

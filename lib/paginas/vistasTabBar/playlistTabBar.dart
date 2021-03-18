@@ -1,6 +1,6 @@
 
 import 'package:firebaseauth/blocs/playlistBloc.dart';
-import 'package:firebaseauth/modelos/listaPlaylist.dart';
+import 'package:firebaseauth/modelos/playslistModelo.dart';
 import 'package:flutter/material.dart';
 
 class PlaylistTabBar extends StatefulWidget {
@@ -10,7 +10,7 @@ class PlaylistTabBar extends StatefulWidget {
 class PlaylistTabBarState extends State<PlaylistTabBar> {
   void initState() {
     super.initState();
-    playlistBloc.fetchPlaylistList();
+    playlistBloc.fetchPlaylist();
   }
 
   @override

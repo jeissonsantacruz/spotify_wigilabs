@@ -1,5 +1,5 @@
 import 'package:firebaseauth/blocs/artistasBloc.dart';
-import 'package:firebaseauth/modelos/artista.dart' as modelo;
+import 'package:firebaseauth/modelos/artistasModelo.dart' as modelo;
 import 'package:flutter/material.dart';
 
 class ArtistTabBar extends StatefulWidget {
@@ -9,7 +9,7 @@ class ArtistTabBar extends StatefulWidget {
 class ArtistTabBarState extends State<ArtistTabBar> { 
   void initState() {
     super.initState();
-    artistasBloc.fetchPlaylistList();
+    artistasBloc.fetchPlaylist();
   }
   @override 
   Widget build(BuildContext context) {

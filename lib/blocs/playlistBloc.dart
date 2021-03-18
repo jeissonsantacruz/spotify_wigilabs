@@ -1,7 +1,7 @@
 
 
-import 'package:firebaseauth/modelos/listaPlaylist.dart';
-import 'package:firebaseauth/modelos/trackPaylist.dart';
+import 'package:firebaseauth/modelos/playslistModelo.dart';
+import 'package:firebaseauth/modelos/trackModelo.dart';
 import 'package:firebaseauth/servicios/spotify/repositoryServicio.dart';
 import 'package:rxdart/rxdart.dart';
 
@@ -14,8 +14,8 @@ class PlaylistBloc {
   Observable<ListPlaylistModel> get playlistList => playlistLista.stream;
   Observable<TracksPlaylistModel> get tracksList => tackslistLista.stream;
 
-  fetchPlaylistList() async {
-     ListPlaylistModel code =   await _repository.fetchPlaylistList();
+  fetchPlaylist() async {
+     ListPlaylistModel code =   await _repository.fetchPlaylist();
     playlistLista.sink.add(code);
   }
   fetchTracksList(String url) async {

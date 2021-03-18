@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:firebaseauth/blocs/autorizacionBloc.dart';
-import 'package:firebaseauth/modelos/autorizacion.dart';
-import 'package:firebaseauth/paginas/spotify/homeUsuario.dart';
+import 'package:firebaseauth/modelos/autorizacionModelo.dart';
+import 'package:firebaseauth/paginas/spotify/homeUsuarioSpotify.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:flutter/material.dart';
@@ -22,10 +22,10 @@ class _EsperaPantallaState extends State<EsperaPantalla> {
 
   @override
   Widget build(BuildContext contextBuild) {
-    authorizationBloc.fetchAuthorizationCode();
+    autorizacionBloc.fetchAuthorizationCode();
 
     _bienvenido() {
-      authorizationBloc.disposeToken();
+      autorizacionBloc.disposeToken();
       Timer(
           Duration(microseconds: 0),
           () =>   Navigator.push(
@@ -35,15 +35,15 @@ class _EsperaPantallaState extends State<EsperaPantalla> {
 
     return Scaffold(
       body: StreamBuilder(
-        stream: authorizationBloc.authorizationCode,
+        stream: autorizacionBloc.authorizationCode,
         builder: (context, AsyncSnapshot<String> snapshot) {
           if (snapshot.hasData) {
             if (snapshot.data == "access_denied") {
               Navigator.pop(contextBuild);
             } else {
-              authorizationBloc.fetchAuthorizationToken(snapshot.data);
+              autorizacionBloc.fetchAuthorizationToken(snapshot.data);
               return StreamBuilder(
-                stream: authorizationBloc.authorizationToken,
+                stream: autorizacionBloc.authorizationToken,
                 builder: (context, AsyncSnapshot<AuthorizationModel> snapshot) {
                   if (snapshot.hasData) {
                     print("FINAL DATA");
