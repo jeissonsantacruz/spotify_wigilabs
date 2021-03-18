@@ -13,7 +13,7 @@ import 'package:wigilabsSpotify/servicios/spotify/busquedaServicio.dart';
 import 'package:wigilabsSpotify/servicios/spotify/categoriasServicio.dart';
 import 'package:wigilabsSpotify/servicios/spotify/playlistAlbunesServicio.dart';
 
-import 'albunesServicio.dart';
+import 'albunesServicioo.dart';
 import 'autorizacionTokenServicio.dart';
 import 'autorizacionServicio.dart';
 import 'playlistServicio.dart';
