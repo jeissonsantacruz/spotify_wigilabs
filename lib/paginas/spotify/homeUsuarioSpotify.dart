@@ -1,5 +1,5 @@
-import 'package:firebaseauth/paginas/spotify/busquedaSpotify.dart';
-import 'package:firebaseauth/paginas/spotify/pantallaInicioSpotify.dart';
+import 'package:wigilabsSpotify/paginas/spotify/busquedaSpotify.dart';
+import 'package:wigilabsSpotify/paginas/spotify/pantallaInicioSpotify.dart';
 import 'package:flutter/material.dart';
 
 import 'libreriaSpotify.dart';

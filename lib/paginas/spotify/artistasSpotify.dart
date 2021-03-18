@@ -1,7 +1,7 @@
 
-import 'package:firebaseauth/blocs/artistasBloc.dart';
-import 'package:firebaseauth/modelos/albunesModelo.dart' as albun;
-import 'package:firebaseauth/modelos/artistasModelo.dart' as modelo;
+import 'package:wigilabsSpotify/blocs/artistasBloc.dart';
+import 'package:wigilabsSpotify/modelos/albunesModelo.dart' as albun;
+import 'package:wigilabsSpotify/modelos/artistasModelo.dart' as modelo;
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 class ArtistasScreem extends StatefulWidget {

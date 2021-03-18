@@ -70,14 +70,6 @@ class ServiciosLogin {
 final String urlPrueba =
     'https://apiselfservice.co/api/index.php/v1/soap/LoginUsuario.json';
 
-// {
-//     "error": 1,
-//     "response": "El Usuario ingresado no se encuentra registrado",
-//     "secs": "00:00:00.1560",
-//     "server": "Exception4",
-//     "request": "{\"nombreUsuario\":\"a@a.aa\",\"clave\":\"Garay1362\"}",
-//     "nodo": "10.3.0.12"
-// }
 class PruebaDatos {
   Future<Map<dynamic, dynamic>> listarPendientes() async {
     var data = {

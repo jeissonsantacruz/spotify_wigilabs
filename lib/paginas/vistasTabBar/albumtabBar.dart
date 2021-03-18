@@ -1,5 +1,5 @@
-import 'package:firebaseauth/blocs/categoriaBloc.dart';
-import 'package:firebaseauth/modelos/categoriasModelo.dart';
+import 'package:wigilabsSpotify/blocs/categoriaBloc.dart';
+import 'package:wigilabsSpotify/modelos/categoriasModelo.dart';
 import 'package:flutter/material.dart';
 
 class AlbumTabBar extends StatefulWidget {

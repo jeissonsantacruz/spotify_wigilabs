@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:firebaseauth/modelos/infoUsuarioModelo.dart';
+import 'package:wigilabsSpotify/modelos/infoUsuarioModelo.dart';
 import 'package:http/http.dart' as http;
 
 

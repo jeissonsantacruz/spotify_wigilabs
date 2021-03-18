@@ -1,7 +1,7 @@
-import 'package:firebaseauth/paginas/login/resgistroUsuario.dart';
-import 'package:firebaseauth/proveedores/preferenciasUsuario.dart';
-import 'package:firebaseauth/servicios/login/serviciosLogin.dart';
-import 'package:firebaseauth/widgets/toastWidget.dart';
+import 'package:wigilabsSpotify/paginas/login/resgistroUsuario.dart';
+import 'package:wigilabsSpotify/proveedores/preferenciasUsuario.dart';
+import 'package:wigilabsSpotify/servicios/login/serviciosLogin.dart';
+import 'package:wigilabsSpotify/widgets/toastWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

@@ -10,7 +10,7 @@
 
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="firebaseauth"
+        android:label="wigilabsSpotify"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

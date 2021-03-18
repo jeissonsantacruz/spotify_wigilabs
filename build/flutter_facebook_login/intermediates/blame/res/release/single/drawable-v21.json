@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\765d948781557ca60ad60520b9d583b2\\core-1.1.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

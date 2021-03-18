@@ -1,7 +1,7 @@
 
 
-import 'package:firebaseauth/modelos/busquedaModelo.dart';
-import 'package:firebaseauth/servicios/spotify/repositoryServicio.dart';
+import 'package:wigilabsSpotify/modelos/busquedaModelo.dart';
+import 'package:wigilabsSpotify/servicios/spotify/repositoryServicio.dart';
 import 'package:rxdart/rxdart.dart';
 
 class BusquedaBloc {

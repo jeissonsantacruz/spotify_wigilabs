@@ -19,7 +19,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="firebaseauth"
+        android:label="wigilabsSpotify"
         android:supportsRtl="true" >
         <activity
             android:name="com.wigilabs.spotify.MainActivity"

@@ -125,7 +125,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\sa
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-login:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\8f99f9c24cbce06ee1a84e707f2f9f87\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:13:9-37
+		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:13:9-40
 	android:icon
 		ADDED from C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:14:9-43
 	android:name

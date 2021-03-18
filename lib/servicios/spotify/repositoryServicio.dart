@@ -1,17 +1,17 @@
 import 'dart:async';
 
-import 'package:firebaseauth/modelos/albunesModelo.dart';
-import 'package:firebaseauth/modelos/artistasModelo.dart';
-import 'package:firebaseauth/modelos/autorizacionModelo.dart';
-import 'package:firebaseauth/modelos/busquedaModelo.dart';
-import 'package:firebaseauth/modelos/categoriasModelo.dart';
-import 'package:firebaseauth/modelos/playslistModelo.dart';
-import 'package:firebaseauth/modelos/playlistCategoria.dart';
-import 'package:firebaseauth/modelos/trackModelo.dart';
-import 'package:firebaseauth/servicios/spotify/artistasServicio.dart';
-import 'package:firebaseauth/servicios/spotify/busquedaServicio.dart';
-import 'package:firebaseauth/servicios/spotify/categoriasServicio.dart';
-import 'package:firebaseauth/servicios/spotify/playlistAlbunesServicio.dart';
+import 'package:wigilabsSpotify/modelos/albunesModelo.dart';
+import 'package:wigilabsSpotify/modelos/artistasModelo.dart';
+import 'package:wigilabsSpotify/modelos/autorizacionModelo.dart';
+import 'package:wigilabsSpotify/modelos/busquedaModelo.dart';
+import 'package:wigilabsSpotify/modelos/categoriasModelo.dart';
+import 'package:wigilabsSpotify/modelos/playslistModelo.dart';
+import 'package:wigilabsSpotify/modelos/playlistCategoria.dart';
+import 'package:wigilabsSpotify/modelos/trackModelo.dart';
+import 'package:wigilabsSpotify/servicios/spotify/artistasServicio.dart';
+import 'package:wigilabsSpotify/servicios/spotify/busquedaServicio.dart';
+import 'package:wigilabsSpotify/servicios/spotify/categoriasServicio.dart';
+import 'package:wigilabsSpotify/servicios/spotify/playlistAlbunesServicio.dart';
 
 import 'albunesServicio.dart';
 import 'autorizacionTokenServicio.dart';

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    }
+]

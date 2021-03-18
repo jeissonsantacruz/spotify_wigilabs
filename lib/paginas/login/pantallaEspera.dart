@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:firebaseauth/blocs/autorizacionBloc.dart';
-import 'package:firebaseauth/modelos/autorizacionModelo.dart';
-import 'package:firebaseauth/paginas/spotify/homeUsuarioSpotify.dart';
+import 'package:wigilabsSpotify/blocs/autorizacionBloc.dart';
+import 'package:wigilabsSpotify/modelos/autorizacionModelo.dart';
+import 'package:wigilabsSpotify/paginas/spotify/homeUsuarioSpotify.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:flutter/material.dart';

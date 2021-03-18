@@ -1,8 +1,8 @@
 
 
-import 'package:firebaseauth/modelos/playslistModelo.dart';
-import 'package:firebaseauth/modelos/trackModelo.dart';
-import 'package:firebaseauth/servicios/spotify/repositoryServicio.dart';
+import 'package:wigilabsSpotify/modelos/playslistModelo.dart';
+import 'package:wigilabsSpotify/modelos/trackModelo.dart';
+import 'package:wigilabsSpotify/servicios/spotify/repositoryServicio.dart';
 import 'package:rxdart/rxdart.dart';
 
 class PlaylistBloc {

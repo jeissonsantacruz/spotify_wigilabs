@@ -1,8 +1,8 @@
 
 
-import 'package:firebaseauth/modelos/albunesModelo.dart';
-import 'package:firebaseauth/modelos/artistasModelo.dart';
-import 'package:firebaseauth/servicios/spotify/repositoryServicio.dart';
+import 'package:wigilabsSpotify/modelos/albunesModelo.dart';
+import 'package:wigilabsSpotify/modelos/artistasModelo.dart';
+import 'package:wigilabsSpotify/servicios/spotify/repositoryServicio.dart';
 import 'package:rxdart/rxdart.dart';
 
 class ArtistasBloc {

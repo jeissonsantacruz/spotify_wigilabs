@@ -1,4 +1,4 @@
-#Wed Mar 17 01:58:36 COT 2021
+#Wed Mar 17 20:43:17 COT 2021
 base.2=C\:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
 base.1=C\:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 base.0=C\:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

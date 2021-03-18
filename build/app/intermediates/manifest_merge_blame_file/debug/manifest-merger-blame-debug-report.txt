@@ -24,8 +24,8 @@
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
 20-->C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:14:9-43
-21        android:label="firebaseauth"
-21-->C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:13:9-37
+21        android:label="wigilabsSpotify"
+21-->C:\Users\santa\OneDrive\Escritorio\spotify_wigilabs\android\app\src\main\AndroidManifest.xml:13:9-40
 22        android:supportsRtl="true" >
 22-->[com.facebook.android:facebook-login:5.5.1] C:\Users\santa\.gradle\caches\transforms-2\files-2.1\8f99f9c24cbce06ee1a84e707f2f9f87\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
 23        <activity

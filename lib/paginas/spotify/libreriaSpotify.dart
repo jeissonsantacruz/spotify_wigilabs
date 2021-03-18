@@ -7,11 +7,11 @@ import '../vistasTabBar/playlistTabBar.dart';
 
 
 
-class MyLibraryPage extends StatefulWidget {
-  MyLibraryPageState createState() => new MyLibraryPageState();
+class LibreriaPagina extends StatefulWidget {
+  LibreriaPaginaState createState() => new LibreriaPaginaState();
 }
 
-class MyLibraryPageState extends State<MyLibraryPage>
+class LibreriaPaginaState extends State<LibreriaPagina>
     with SingleTickerProviderStateMixin {
   TabController tabController;
 

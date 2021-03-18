@@ -1,5 +1,5 @@
-import 'package:firebaseauth/blocs/artistasBloc.dart';
-import 'package:firebaseauth/modelos/artistasModelo.dart' as modelo;
+import 'package:wigilabsSpotify/blocs/artistasBloc.dart';
+import 'package:wigilabsSpotify/modelos/artistasModelo.dart' as modelo;
 import 'package:flutter/material.dart';
 
 class ArtistTabBar extends StatefulWidget {

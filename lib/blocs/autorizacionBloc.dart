@@ -1,6 +1,6 @@
 
-import 'package:firebaseauth/modelos/autorizacionModelo.dart';
-import 'package:firebaseauth/servicios/spotify/repositoryServicio.dart';
+import 'package:wigilabsSpotify/modelos/autorizacionModelo.dart';
+import 'package:wigilabsSpotify/servicios/spotify/repositoryServicio.dart';
 import 'package:rxdart/rxdart.dart';
 
 class AutorizacionBloc {

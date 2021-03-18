@@ -1,8 +1,8 @@
 
 import 'package:audioplayers/audioplayers.dart';
-import 'package:firebaseauth/blocs/categoriaBloc.dart';
-import 'package:firebaseauth/modelos/categoriasModelo.dart' as modelo;
-import 'package:firebaseauth/modelos/playlistCategoria.dart' as playslist;
+import 'package:wigilabsSpotify/blocs/categoriaBloc.dart';
+import 'package:wigilabsSpotify/modelos/categoriasModelo.dart' as modelo;
+import 'package:wigilabsSpotify/modelos/playlistCategoria.dart' as playslist;
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:url_launcher/url_launcher.dart';

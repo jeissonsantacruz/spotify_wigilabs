@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\values-watch-v20\\values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\flutter_facebook_login\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\santa\\.gradle\\caches\\transforms-2\\files-2.1\\0d17d3ffe770972d5808ec9373f93216\\appcompat-1.0.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

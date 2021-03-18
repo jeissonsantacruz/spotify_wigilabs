@@ -1,0 +1,4 @@
+#Wed Mar 17 20:58:57 COT 2021
+base.0=C\:\\Users\\santa\\OneDrive\\Escritorio\\spotify_wigilabs\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

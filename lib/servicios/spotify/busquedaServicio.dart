@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:firebaseauth/modelos/autorizacionModelo.dart';
-import 'package:firebaseauth/modelos/busquedaModelo.dart';
+import 'package:wigilabsSpotify/modelos/autorizacionModelo.dart';
+import 'package:wigilabsSpotify/modelos/busquedaModelo.dart';
 import 'package:http/http.dart' show Client;
 import 'dart:convert';
 

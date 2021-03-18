@@ -1,6 +1,6 @@
 
-import 'package:firebaseauth/blocs/playlistBloc.dart';
-import 'package:firebaseauth/modelos/playslistModelo.dart';
+import 'package:wigilabsSpotify/blocs/playlistBloc.dart';
+import 'package:wigilabsSpotify/modelos/playslistModelo.dart';
 import 'package:flutter/material.dart';
 
 class PlaylistTabBar extends StatefulWidget {

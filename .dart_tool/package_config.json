@@ -452,13 +452,13 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "firebaseauth",
+      "name": "wigilabsSpotify",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2021-03-15T03:13:20.162909Z",
+  "generated": "2021-03-18T01:41:49.610372Z",
   "generator": "pub",
   "generatorVersion": "2.12.0-76.0.dev"
 }

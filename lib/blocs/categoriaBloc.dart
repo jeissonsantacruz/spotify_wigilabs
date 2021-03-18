@@ -1,7 +1,7 @@
 
-import 'package:firebaseauth/modelos/categoriasModelo.dart';
-import 'package:firebaseauth/modelos/playlistCategoria.dart';
-import 'package:firebaseauth/servicios/spotify/repositoryServicio.dart';
+import 'package:wigilabsSpotify/modelos/categoriasModelo.dart';
+import 'package:wigilabsSpotify/modelos/playlistCategoria.dart';
+import 'package:wigilabsSpotify/servicios/spotify/repositoryServicio.dart';
 import 'package:rxdart/rxdart.dart';
 
 class CategoriaBloc {
