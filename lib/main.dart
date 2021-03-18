@@ -1,10 +1,10 @@
-import 'package:firebaseauth/paginas/login/pantallaEspera.dart';
-import 'package:firebaseauth/paginas/login/loginUsuario.dart';
-import 'package:firebaseauth/paginas/login/resgistroUsuario.dart';
-import 'package:firebaseauth/paginas/spotify/artistasSpotify.dart';
-import 'package:firebaseauth/paginas/spotify/homeUsuarioSpotify.dart';
-import 'package:firebaseauth/paginas/spotify/playlistSpotify.dart';
-import 'package:firebaseauth/paginas/spotify/tracksPantalla.dart';
+import 'package:wigilabsSpotify/paginas/login/loginUsuario.dart';
+import 'package:wigilabsSpotify/paginas/login/pantallaEspera.dart';
+import 'package:wigilabsSpotify/paginas/login/resgistroUsuario.dart';
+import 'package:wigilabsSpotify/paginas/spotify/artistasSpotify.dart';
+import 'package:wigilabsSpotify/paginas/spotify/homeUsuarioSpotify.dart';
+import 'package:wigilabsSpotify/paginas/spotify/playlistSpotify.dart';
+import 'package:wigilabsSpotify/paginas/spotify/tracksSpotify.dart';
 import 'package:flutter/material.dart';
 
 import 'proveedores/preferenciasUsuario.dart';
@@ -53,16 +53,14 @@ class _MyAppState extends State<MyApp> {
       initialRoute: _ruta(),
       navigatorKey: navigatorKey,
       routes: {
-        'login'   : (context) => LoginPagina(),
-        'registro': (context) => RegistroCorreo(),
-        'espera'    : (context) => EsperaPantalla(),
-        'home' : (context) => HomePagina(),
+        'login': (context) => new LoginPagina(),
+        'registro': (context) => new RegistroCorreo(),
+        'espera': (context) => new EsperaPantalla(),
+        'home': (context) => new HomePagina(),
         '/tracks': (BuildContext context) => new TracksScreen(),
-         '/artistas': (BuildContext context) => new ArtistasScreem(),
-         '/playlistCategorias': (BuildContext context) => new PlaylistCategoria(),
-
-
-        
+        '/artistas': (BuildContext context) => new ArtistasScreem(),
+        '/playlistCategorias': (BuildContext context) =>
+            new PlaylistCategoria(),
       },
     );
   }
@@ -76,7 +74,7 @@ class _MyAppState extends State<MyApp> {
       route = 'espera';
       return route;
     } else {
-      route ='login';
+      route = 'login';
       return route;
     }
   }
