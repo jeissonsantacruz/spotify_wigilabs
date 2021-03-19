@@ -1,24 +1,24 @@
 import 'dart:async';
 
 import 'package:wigilabsSpotify/modelos/autorizacionModelo.dart';
-import 'package:wigilabsSpotify/modelos/busquedaModelo.dart';
 import 'package:http/http.dart' show Client;
 import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:wigilabsSpotify/modelos/busquedaModelo.dart';
 
 class BusquedaServicio {
   Client client = Client();
   
 
-  Future<BusquedaCategoria> fetchBusqueda(String busqueda) async {
-    var urlBusqueda = 'https://api.spotify.com/v1/search?q=$busqueda&type=track%2Cartist&market=US&limit=10&offset=5';
+  Future <List<TracksPlaylistModel>> fetchBusqueda(String busqueda) async {
+    var urlBusqueda = 'https://api.spotify.com/v1/search?q=$busqueda&type=track&market=CO&limit=10';
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String accesstoken = prefs.getString('access_token');
     String tokentype = prefs.getString('token_type');
 
     String authorizationWithToken = '$tokentype $accesstoken';
-
+ 
     var response = await client
         .get(urlBusqueda, headers: {'Authorization': authorizationWithToken});
 
@@ -57,7 +57,13 @@ class BusquedaServicio {
     }
 
     if (response.statusCode == 200) {
-      return BusquedaCategoria.fromJson(json.decode(response.body));
+      List<TracksPlaylistModel> tracksList = new List();
+  final decodeData = json.decode(response.body);
+      var list = decodeData['tracks']['items'] as List;
+      print(list);
+
+     tracksList =  list.map((i) => TracksPlaylistModel.fromJson(i)).toList();
+      return tracksList;
     } else {
       print("EstatusCode: ${response.statusCode}");
       print("BODY: ${response.body}");

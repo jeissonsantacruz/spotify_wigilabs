@@ -7,21 +7,21 @@ import 'package:rxdart/rxdart.dart';
 class BusquedaBloc {
   final _repository = RepositoryBusqueda();
 
-  final PublishSubject busquedaCategoriaLista = PublishSubject<BusquedaCategoria>();
+  final PublishSubject tracksPlaylistModelLista = PublishSubject<List<TracksPlaylistModel>>();
   
 
-  Observable<BusquedaCategoria> get busquedaList => busquedaCategoriaLista.stream;
+  Observable<TracksPlaylistModel> get busquedaList => tracksPlaylistModelLista.stream;
 
 
   fetchPlaylist(String busqueda) async {
-     BusquedaCategoria code = await _repository.fecthBusqueda(busqueda );
-    busquedaCategoriaLista.sink.add(code);
+     List<TracksPlaylistModel> code = await _repository.fecthBusqueda(busqueda );
+    tracksPlaylistModelLista.sink.add(code);
   }
  
  
 
   disposePlaylist() {
-    busquedaCategoriaLista.close();
+    tracksPlaylistModelLista.close();
   }
  
 

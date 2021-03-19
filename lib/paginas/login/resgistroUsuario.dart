@@ -1,3 +1,4 @@
+import 'package:wigilabsSpotify/paginas/login/pantallaEspera.dart';
 import 'package:wigilabsSpotify/proveedores/preferenciasUsuario.dart';
 import 'package:wigilabsSpotify/servicios/login/serviciosLogin.dart';
 import 'package:wigilabsSpotify/widgets/toastWidget.dart';
@@ -117,7 +118,7 @@ class _RegistroCorreoState extends State<RegistroCorreo> {
         serviciosLogin.signUpWithMail(correoController.text,contrasenaController.text).then((respuesta) {
         preferenciasUsuario.login = true;
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => HomePagina()));
+            context, MaterialPageRoute(builder: (context) => EsperaPantalla()));
       });
       } 
     } catch (e) {

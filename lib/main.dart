@@ -57,7 +57,7 @@ class _MyAppState extends State<MyApp> {
         'registro': (context) => new RegistroCorreo(),
         'espera': (context) => new EsperaPantalla(),
         'home': (context) => new HomePagina(),
-        '/tracks': (BuildContext context) => new TracksScreen(),
+        // '/tracks': (BuildContext context) => new TracksScreen(),
         '/artistas': (BuildContext context) => new ArtistasScreem(),
         '/playlistCategorias': (BuildContext context) =>
             new PlaylistCategoria(),

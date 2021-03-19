@@ -3,17 +3,17 @@ import 'dart:async';
 import 'package:wigilabsSpotify/modelos/albunesModelo.dart';
 import 'package:wigilabsSpotify/modelos/artistasModelo.dart';
 import 'package:wigilabsSpotify/modelos/autorizacionModelo.dart';
-import 'package:wigilabsSpotify/modelos/busquedaModelo.dart';
 import 'package:wigilabsSpotify/modelos/categoriasModelo.dart';
 import 'package:wigilabsSpotify/modelos/playslistModelo.dart';
 import 'package:wigilabsSpotify/modelos/playlistCategoria.dart';
+import 'package:wigilabsSpotify/modelos/busquedaModelo.dart' as modelo;
 import 'package:wigilabsSpotify/modelos/trackModelo.dart';
 import 'package:wigilabsSpotify/servicios/spotify/artistasServicio.dart';
 import 'package:wigilabsSpotify/servicios/spotify/busquedaServicio.dart';
 import 'package:wigilabsSpotify/servicios/spotify/categoriasServicio.dart';
 import 'package:wigilabsSpotify/servicios/spotify/playlistAlbunesServicio.dart';
 
-import 'albunesServicioo.dart';
+import 'albunesServicio.dart';
 import 'autorizacionTokenServicio.dart';
 import 'autorizacionServicio.dart';
 import 'playlistServicio.dart';
@@ -46,7 +46,7 @@ class RepositoryArtistas {
 class RepositoryBusqueda {
   final busqueda = BusquedaServicio();
   
-  Future<BusquedaCategoria> fecthBusqueda(String busq) => busqueda.fetchBusqueda(busq);
+  Future<List<modelo.TracksPlaylistModel>> fecthBusqueda(String busq) => busqueda.fetchBusqueda(busq);
   
 
 }
