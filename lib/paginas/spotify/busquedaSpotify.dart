@@ -17,6 +17,7 @@ class _BusquedaPantallaState extends State<BusquedaPantalla> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -29,7 +30,7 @@ class _BusquedaPantallaState extends State<BusquedaPantalla> {
               shape: StadiumBorder(),
               elevation: 0,
               splashColor: Colors.transparent,
-              color: Colors.blue,
+              color: Colors.white,
               onPressed: () async {
                 final pais = await showSearch(
                   context: context, 

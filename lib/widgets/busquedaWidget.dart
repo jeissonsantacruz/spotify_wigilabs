@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:wigilabsSpotify/blocs/busquedaBloc.dart';
 
 
 import 'package:wigilabsSpotify/modelos/busquedaModelo.dart' as modelo;
@@ -36,7 +35,7 @@ class CountrySearchDelegate extends SearchDelegate<modelo.TracksPlaylistModel> {
   Widget buildResults(BuildContext context) {
 
     if ( query.trim().length == 0 ) {
-      return Text('no hay valor en el query');
+      return Text('no hay valor en la busqueda');
     }
 
 
@@ -91,34 +90,3 @@ class CountrySearchDelegate extends SearchDelegate<modelo.TracksPlaylistModel> {
   }
 
 }
-
-
-
-
-// class CountryService {
-
-//   final _dio = new Dio();
-
-//   Future getCountryByName( String name ) async {
-
-//     try {
-      
-//       final url = 'https://resttracks.eu/rest/v2/name/$name';
-//       final resp = await _dio.get(url);
-
-//       final List<dynamic> countryList = resp.data;
-      
-//       return countryList.map(
-//         (obj) => modelo.Country.fromJson(obj)
-//       ).toList();
-
-
-//     } catch (e) {
-      
-//       print(e);
-//       return [];
-//     }
-
-//   }
-
-// }
