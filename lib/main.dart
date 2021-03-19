@@ -4,7 +4,6 @@ import 'package:wigilabsSpotify/paginas/login/resgistroUsuario.dart';
 import 'package:wigilabsSpotify/paginas/spotify/artistasSpotify.dart';
 import 'package:wigilabsSpotify/paginas/spotify/homeUsuarioSpotify.dart';
 import 'package:wigilabsSpotify/paginas/spotify/playlistSpotify.dart';
-import 'package:wigilabsSpotify/paginas/spotify/tracksSpotify.dart';
 import 'package:flutter/material.dart';
 
 import 'proveedores/preferenciasUsuario.dart';
